@@ -1,1 +1,5 @@
-org/example/Main.class
+com/phoenix/enums/SeatCategory.class
+com/phoenix/enums/Genre.class
+com/phoenix/enums/SeatStatus.class
+com/phoenix/enums/Language.class
+com/phoenix/Main.class
