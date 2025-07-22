@@ -7,15 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="phoenix-utils" />
+        <module name="phoenix-core" />
+        <module name="phoenix-migrations" />
+        <module name="phoenix-model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="phoenix" target="1.5" />
-      <module name="phoenix-core" target="21" />
       <module name="phoenix-migration" target="1.8" />
-      <module name="phoenix-migrations" target="1.8" />
-      <module name="phoenix-model" target="21" />
-      <module name="phoenix-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
