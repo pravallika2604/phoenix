@@ -2,8 +2,14 @@ package com.phoenix.entity;
 
 import com.phoenix.enums.Genre;
 import jakarta.persistence.*;
+import lombok.*;
 
 @Entity
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Table(name = "movie_genres", uniqueConstraints = {
     @UniqueConstraint(columnNames = {"movie_id", "genre"})
 })

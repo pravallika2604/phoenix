@@ -1,12 +1,18 @@
 package com.phoenix.entity;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.time.LocalDate;
 import java.util.List;
 
 @Entity
 @Table(name = "movies")
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 public class Movie extends BaseEntity{
     private String name;
     private int duration;

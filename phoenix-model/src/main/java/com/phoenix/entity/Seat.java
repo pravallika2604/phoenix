@@ -6,7 +6,9 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "seats", uniqueConstraints = @UniqueConstraint(columnNames = {"show_id", "row_number", "seat_number"}))
 public class Seat extends BaseEntity {
+    @Column(name = "row_number", nullable = false)
     private int rowNumber;
+    @Column(name = "seat_number", nullable = false)
     private int seatNumber;
     private String status;
     @ManyToOne(fetch = FetchType.LAZY)

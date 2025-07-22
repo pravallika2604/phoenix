@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/phoenix-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/phoenix-migrations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phoenix-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

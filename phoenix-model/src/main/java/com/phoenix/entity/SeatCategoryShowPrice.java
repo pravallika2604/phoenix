@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "seat_category_show_prices", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"category_id", "show_id"})
+        @UniqueConstraint(columnNames = {"category", "show_id"})
 })
 public class SeatCategoryShowPrice extends BaseEntity {
     private Double price;

@@ -1,4 +1,5 @@
 /Users/mohanvamsi/phoenix/phoenix-model/src/main/java/com/phoenix/entity/Screen.java
+/Users/mohanvamsi/phoenix/phoenix-model/src/main/java/com/phoenix/dto/CreateMovieRequest.java
 /Users/mohanvamsi/phoenix/phoenix-model/src/main/java/com/phoenix/entity/Movie.java
 /Users/mohanvamsi/phoenix/phoenix-model/src/main/java/com/phoenix/entity/Seat.java
 /Users/mohanvamsi/phoenix/phoenix-model/src/main/java/com/phoenix/entity/Show.java
